@@ -28,13 +28,6 @@ function uniqueValues(value, index, vals) {
 function gedtUnique(vals) {
     return vals.filter(self.uniqueValues);
 }
-/*
- 4
- Дописать функцию toMatrix(data, rowSize), которая принимает аргументом массив и число,
- возвращает новый массив. Число показывает количество элементов в подмассивах,
- элементы подмассивов беруться из массива data.
- Оригинальный массив не должен быть изменен.
- */
 function toMatrix(data, rowSize) {
     var resultArr = [];
     for (var i = 0; i < data.length; i++) {
